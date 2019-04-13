@@ -25,3 +25,34 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+---
+Adicionar bootstrap to project
+https://medium.com/@beeman/tutorial-styling-angular-cli-v6-apps-with-bootstrap-8d4f8ea5adae
+
+Menu do lado direito
+https://www.5balloons.info/bootstrap-4-navbar-items-right-examples/
+
+
+
+ngfor-repeating-components
+https://stackoverflow.com/questions/37520170/ngfor-repeating-components
+https://malcoded.com/posts/angular-ngfor
+
+
+DIV - Force height 100%=/= page height?
+https://stackoverflow.com/questions/9734820/div-force-height-100-page-height
+
+
+ng generate
+https://angular.io/cli/generate
+ng generate component [name] generates a component
+
+
+Simple Responsive Images With CSS Background Images
+https://www.smashingmagazine.com/2013/07/simple-responsive-images-with-css-background-images/
+
+
+https://angular.io/guide/router
+http://learnjsdata.com
+https://journey.cloud/timeline
