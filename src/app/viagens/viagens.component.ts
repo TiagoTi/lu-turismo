@@ -10,41 +10,35 @@ export class ViagensComponent implements OnInit {
   constructor() { }
 
   viagens = [{
-    'nome': 'cacum city 1',
+    'nome': 'cabo frio',
     'valor': 0.0,
-    'descricao': 'lorem ipsum'
+    'descricao': 'lorem ipsum',
+    'src': 'assets/img/cabo-frio.jpg'
   }, {
-    'nome': 'cacum city 2',
+    'nome': 'bauneario',
     'valor': 0.0,
-    'descricao': 'lorem ipsum'
+    'descricao': 'lorem ipsum',
+    'src': 'assets/img/bauneario.jpg'
   }, {
-    'nome': 'cacum city 3',
+    'nome': 'cabo frio',
     'valor': 0.0,
-    'descricao': 'lorem ipsum'
+    'descricao': 'lorem ipsum',
+    'src': 'assets/img/cabo-frio.jpg'
+  },{
+    'nome': 'bauneario',
+    'valor': 0.0,
+    'descricao': 'lorem ipsum',
+    'src': 'assets/img/bauneario.jpg'
   }, {
-    'nome': 'cacum city 4',
+    'nome': 'cabo frio',
     'valor': 0.0,
-    'descricao': 'lorem ipsum'
-  }, {
-    'nome': 'cacum city 5',
+    'descricao': 'lorem ipsum',
+    'src': 'assets/img/cabo-frio.jpg'
+  },{
+    'nome': 'bauneario',
     'valor': 0.0,
-    'descricao': 'lorem ipsum'
-  }, {
-    'nome': 'cacum city 6',
-    'valor': 0.0,
-    'descricao': 'lorem ipsum'
-  }, {
-    'nome': 'cacum city 7',
-    'valor': 0.0,
-    'descricao': 'lorem ipsum'
-  }, {
-    'nome': 'cacum city 8',
-    'valor': 0.0,
-    'descricao': 'lorem ipsum'
-  }, {
-    'nome': 'cacum city 9',
-    'valor': 0.0,
-    'descricao': 'lorem ipsum'
+    'descricao': 'lorem ipsum',
+    'src': 'assets/img/bauneario.jpg'
   }
 ];
 

@@ -16,6 +16,9 @@ export class ViagemComponent implements OnInit {
   @Input()
   descricao: string;
 
+  @Input()
+  src: string;
+
   constructor() { }
 
   ngOnInit() {

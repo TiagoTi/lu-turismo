@@ -2,9 +2,10 @@
 <div class="row">
   <div *ngFor="let viagem of this.viagens" >
       <app-viagem
-      [nome]="viagem.nome"
-      [valor]="viagem.valor"
-      [descricao]="viagem.descricao"
+        [nome]="viagem.nome"
+        [valor]="viagem.valor"
+        [descricao]="viagem.descricao"
+        [src]="viagem.src"
       ></app-viagem>
   </div>
 </div>
