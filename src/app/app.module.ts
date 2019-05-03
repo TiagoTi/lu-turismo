@@ -24,13 +24,13 @@ import { GaleriaFotosComponent } from './galeria-fotos/galeria-fotos.component';
 
 const appRoutes: Routes = [
   { path: '',
-    redirectTo: '/home',
+    redirectTo: '/index.html',
     pathMatch: 'full'
   },
-  { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'galeria-fotos', component: GaleriaFotosComponent },
-  { path: 'destinos', component: DestinosComponent },
+  { path: 'index.html', component: HomeComponent },
+  { path: 'about.html', component: AboutComponent },
+  { path: 'galeria-fotos.html', component: GaleriaFotosComponent },
+  { path: 'destinos.html', component: DestinosComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
