@@ -17,6 +17,18 @@ class CarouselItem extends React.Component{
 
 
 export default class Carousel extends React.Component{
+
+
+  constructor(props) {
+    super(props);
+  }
+
+
+  componentDidMount(){
+    $('#carouselExampleSlidesOnly').carousel()
+  }
+
+
   render(){
 
     const carousel_items = [];
@@ -37,6 +49,6 @@ export default class Carousel extends React.Component{
       </div>
     )
 
-    $('#carouselExampleSlidesOnly').carousel()
+
   }
 }

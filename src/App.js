@@ -1,10 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React, { Suspense, lazy } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
 
-const Home = lazy(() => import('./routes/Home'));
-const About = lazy(() => import('./routes/About'));
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
 
 
 
