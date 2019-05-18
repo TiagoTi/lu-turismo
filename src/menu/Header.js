@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import './Header.sass';
 import logo from './logo.png';
-
+import Carousel from '../components/carousel/Carousel';
 
 function Header() {
   return (
@@ -12,6 +12,7 @@ function Header() {
       </div>
       <Navbar />
       <hr />
+      <Carousel />
     </header>
   );
 }
