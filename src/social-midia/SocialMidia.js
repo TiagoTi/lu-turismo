@@ -11,7 +11,7 @@ class NavItem extends React.Component{
 
   render(){
     return(
-      <a href={this.props.href} target="_blank" className="mr">
+      <a href={this.props.href} target="_blank" className="mr" rel="noopener noreferrer">
         <img
           src={this.props.icon}
           className="social-icon"
