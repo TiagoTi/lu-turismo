@@ -11,6 +11,7 @@ function Header() {
         <img src={logo} alt="Logo" />
       </div>
       <Navbar />
+      <hr />
     </header>
   );
 }
