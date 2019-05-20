@@ -71,3 +71,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ---
 
 # [S3 Site](http://luturismo.s3-website-sa-east-1.amazonaws.com/)
+
+[Create React App](https://facebook.github.io/create-react-app/docs/documentation-intro)
