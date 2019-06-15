@@ -7,8 +7,8 @@ import Carousel from '../components/carousel/Carousel';
 function Header() {
   return (
     <header className="Header">
-      <div className='logo'>
-        <img src={logo} alt="Logo" />
+      <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo"/>
       </div>
       <Navbar />
       <hr />
