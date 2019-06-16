@@ -34,7 +34,7 @@ function Footer() {
                     <textarea className="custom form-control" rows="5" placeholder="Mensagem"></textarea>
                   </div>
                   <div className="form-group">
-                    <input type="submit" className="btn btn-primary" placeholder="Titulo"  />
+                    <input type="submit" className="btn btn-primary" placeholder="Titulo" value="Enviar"  />
                   </div>
                   
                 </div>
