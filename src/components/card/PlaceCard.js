@@ -15,8 +15,9 @@ export default class PlaceCard extends React.Component{
               </div>
             </div>
 
-            <div className="justify-content-flex-end">
-              <p className="a">10x R$ 125,00</p>
+            <div className="place-and-price">
+              <p className="place">Região dos Lagos</p>
+              <p className="price">10x<br/><span>R$ 125,00</span></p>
             </div>
 
             <div className="">

@@ -2,6 +2,9 @@
 
 .card
   font-size: 10px
+  padding: 0
+  min-width: 250px
+
 .card-body
   padding: 0
 
@@ -12,21 +15,16 @@
 
 
 .label-price
-  width: 85px
   min-height: 15px
   display: flex
   justify-content: flex-end
   p
-    padding-top: 4px
-    padding-right: 6px
-    padding-left: 24px
+    padding: 8px 25px 8px 25px
     border-radius: 0px 0px 0px 12px
     -moz-border-radius: 0px 0px 0px 12px
     -webkit-border-radius: 0px 0px 0px 12px
     border: 0px solid #000000
 
-.card-title
-  border: 1px solid blue
 
 // .price-label
 //     margin-top: -20px
@@ -38,5 +36,21 @@
 //     text-align: center
 //     align-content: center
 
-// .card-border
-//   border: 2px solid $main_s
+.card-border
+  border: 2px solid $main_s
+
+.place-and-price
+  display: flex
+  font-size: 18px
+  .place
+    width: 55%
+    color: $place_blue
+    text-align: center
+    line-height: 1
+    font-weight: bold
+  .price
+    padding-right: 18px
+    color: #030e60
+    span
+      font-size: 20px
+      font-weight: bold
