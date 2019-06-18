@@ -3,6 +3,7 @@ import React, { Suspense, lazy } from 'react';
 
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
+const Destination = lazy(() => import('./pages/Destination'));
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route exact path="/index.html" component={Home}/>
         <Route path="/about" component={About}/>
+        <Route path="/destinations" component={Destination}/>
       </Switch>
     </Suspense>
   </Router>
