@@ -8,35 +8,34 @@ function Footer() {
       <p className="you-can">Você pode conhecer o mundo!</p>
       <div className="contact-us">
         <div className="row">
-          <div className="col-4">
+          <div className="col-md-4">
             <p className="address">
-              Rua General Telles, 1041<br/>
-              Centro - Franca-SP<br/>
+              Rua General Telles, 1041<br />
+              Centro - Franca-SP<br />
               CEP: 14405-090
             </p>
           </div>
-          <div className="col-8">
+          <div className="col-md-8">
             <form>
-              <div className="row">
-                <div className="col-6">
+              <div className="row-form">
+                <div className="item-row">
                   <div className="form-group">
-                    <input type="text" className="custom form-control" placeholder="Nome"  />
+                    <input type="text" className="custom form-control" placeholder="Nome" />
                   </div>
                   <div className="form-group">
-                    <input type="email" className="custom form-control" placeholder="Email"  />
+                    <input type="email" className="custom form-control" placeholder="Email" />                                                                                                                                                
                   </div>
                   <div className="form-group">
-                    <input type="text" className="custom form-control" placeholder="Titulo"  />
+                    <input type="text" className="custom form-control" placeholder="Titulo" />
                   </div>
                 </div>
-                <div className="col-6">
-                <div className="form-group">
+                <div className="item-row">
+                  <div className="form-group">
                     <textarea className="custom form-control" rows="5" placeholder="Mensagem"></textarea>
                   </div>
                   <div className="form-group">
-                    <input type="submit" className="btn btn-primary" placeholder="Titulo" value="Enviar"  />
+                    <input type="submit" className="btn btn-primary" placeholder="Titulo" value="Enviar" />
                   </div>
-                  
                 </div>
               </div>
             </form>
