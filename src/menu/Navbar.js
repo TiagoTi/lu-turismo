@@ -1,15 +1,16 @@
 import React from 'react';
+import {HashLink} from 'react-router-hash-link'
 import SocialMidia from '../social-midia/SocialMidia';
 import { Link } from 'react-router-dom';
 import './Navbar.sass';
 
 
 const PAGES = [
-  {text: 'INICIO', href: '/', disable: false},
+  {text: 'INICIO', href: '/#header', disable: false, type: 'hashLink'},
   {text: 'DESTINOS', href: '/destinations', disable: false},
   {text: 'GALERIA DE FOTOS', href: '/photos', disable: false},
-  {text: 'CONTATO', href: '/contacts', disable: false},
-  {text: 'QUEM SOMOS', href: '/about', disable: true},
+  {text: 'CONTATO', href: '#contact', disable: false, type: 'hashLink'},
+  {text: 'QUEM SOMOS', href: '/about#about-us', disable: true,type: 'hashLink'},
 ]
 
 
@@ -28,9 +29,11 @@ class NavbarToggler extends React.Component{
 
 class NavItem extends React.Component{
   render(){
-    return(
-        <Link className="nav-link nav-item" to={this.props.to}>{this.props.text}</Link>
-    )
+    if (this.props.type==="hashLink"){
+      return(<HashLink className="nav-link nav-item" to={this.props.to}>{this.props.text}</HashLink>)
+    }else{
+      return(<Link className="nav-link nav-item" to={this.props.to}>{this.props.text}</Link>)
+    }
   }
 }
 
@@ -39,7 +42,7 @@ class NavbarCollapse extends React.Component{
   render(){
     const links = [];
     this.props.links.forEach((link)=>{
-      links.push( <NavItem to={link.href} text={link.text}/> )
+      links.push( <NavItem to={link.href} text={link.text} type={link.type}/> )
     });
 
     return(
