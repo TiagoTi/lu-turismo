@@ -9,7 +9,7 @@ const PAGES = [
   {text: 'DESTINOS', href: '/destinations', disable: false},
   {text: 'GALERIA DE FOTOS', href: '/photos', disable: false},
   {text: 'CONTATO', href: '/contacts', disable: false},
-  {text: 'SOBRE NÓS', href: '/about', disable: true},
+  {text: 'QUEM SOMOS', href: '/about', disable: true},
 ]
 
 
