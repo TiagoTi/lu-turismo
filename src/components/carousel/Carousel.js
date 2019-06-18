@@ -39,7 +39,7 @@ export default class Carousel extends React.Component{
     });
 
     return(
-      <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+      <div id="carouselExampleSlidesOnly" className="carousel slide clearfix" data-ride="carousel">
         <div className="carousel-inner">{carousel_items}</div>
       </div>
     )
