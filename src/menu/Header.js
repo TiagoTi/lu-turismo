@@ -13,7 +13,7 @@ function Header() {
           <img src={logo} alt="Logo" className="logo" />
         </div>
         <Navbar />
-        <hr />
+        <hr className="borderd" />
 
       </div>
       <div className="clearfix p-t-230">
