@@ -7,11 +7,14 @@ import Carousel from '../components/carousel/Carousel';
 function Header() {
   return (
     <header className="Header">
-      <div className="logo-container">
-        <img src={logo} alt="Logo" className="logo"/>
-      </div>
-      <Navbar />
-      <hr />
+      <div className="-fixed-top">
+        <div className="logo-container">
+          <img src={logo} alt="Logo" className="logo"/>
+        </div>
+        <Navbar />
+        <hr />
+    </div>
+      
       <Carousel />
     </header>
   );
