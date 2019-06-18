@@ -6,7 +6,7 @@ import Carousel from '../components/carousel/Carousel';
 
 function Header() {
   return (
-    <header className="Header">
+    <header className="Header"id="header">
 
       <div className="fixed-top bg-color-main">
         <div className="logo-container">

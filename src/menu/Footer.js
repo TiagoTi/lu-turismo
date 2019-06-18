@@ -4,7 +4,7 @@ import './Footer.sass';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <p className="you-can">Você pode conhecer o mundo!</p>
       <div className="contact-us">
         <div className="row">

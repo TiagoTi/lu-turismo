@@ -5,7 +5,7 @@ import './About.sass'
 
 function About() {
   return (
-    <div className="about container">
+    <div className="about container" id="about-us">
       <Header />
       <div className="height_100">
       <h1>Quem Somos</h1>
