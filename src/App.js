@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React, { Suspense, lazy } from 'react';
 
 const Home = lazy(() => import('./pages/Home'));
-const About = lazy(() => import('./pages/About'));
-const Destination = lazy(() => import('./pages/Destination'));
+const About = lazy(() => import('./pages/about/About'));
+const Destination = lazy(() => import('./pages/destination/Destination'));
 
 
 
