@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../menu/Footer';
-import Header from '../menu/Header';
+import Footer from '../../menu/Footer';
+import Header from '../../menu/Header';
 import './Destination.sass'
 
 
